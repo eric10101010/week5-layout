@@ -1,0 +1,79 @@
+.container {
+    padding: $text-xl;
+}
+.side-bar{
+    position: fixed;
+    min-width: 296px;
+    min-height: 100vh;
+    background-color: $gray;
+    &-list {
+        margin-left: $text-xl;
+    }
+    &-logo{
+        margin-top: $text-xl;
+        margin-bottom: $text-3xl;
+        a{
+            width: 151px;
+            height: 40px;
+            background-image: url('../images/logo-ANSWER.svg');
+            background-size: cover;
+            display: block;
+            text-indent: 101%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+    &-item{
+        display: flex; 
+        padding-top: 29px;
+        span{
+            font-size: $text-l;
+            padding-right: $font-size-base;
+        }
+        p{
+            font-size: $font-size-base;
+            line-height: $text-l;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        a{
+            color: $black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: $primary;
+        }
+        &Active{
+            color: $primary;
+        }
+
+    }
+    &-item:hover{
+        color: $primary;
+    }
+    &-member {
+        display: flex;
+        align-items: center;
+        margin-bottom: $text-xl;
+        margin-left: $text-xl;
+    }
+    &-img{
+        padding-right: $font-size-base;
+        img{
+            border-radius: $text-l;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    &-text{
+        p{
+            font-size: $font-size-base;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        span{
+            font-size: $text-s;
+        }
+
+    }
+}

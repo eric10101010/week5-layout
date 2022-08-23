@@ -1,0 +1,179 @@
+.admin {
+    margin-left: 296px;
+    &-title {
+        width: 936px;
+        h2 {
+            font-size: $text-l;
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+    &-header {
+        border-bottom: 1px solid $black;
+    }
+    &-body {
+        th {
+            padding-top: 19px;
+            padding-bottom: 17px;
+            border-bottom: 1px solid $gray-200;
+        }
+    }
+    &-table {
+        width: 936px;
+        span {
+            cursor: pointer;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+    &-page {
+        width: 936px;
+        margin-top: 63px;
+        display: flex;
+        justify-content: flex-end;
+        &-item {
+            outline: 1px solid $primary;
+            border-radius: 2px; 
+            p {
+                padding: 0 11.5px;
+                padding-top: 6px;
+                padding-bottom: 7px;
+                &:hover {
+                    background-color: $primary;
+                    color: $white;
+                }
+            }
+            span {
+                padding: 4px;
+                cursor: pointer;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
+.modal {
+    &-header {
+        padding: $text-xl;
+        border-bottom: 0;
+        button {
+            font-size: $text-l;
+        }
+    }
+    &-body {
+        padding: $text-xl;
+    }
+    &-title {
+        font-size: $text-l;
+    }
+    &-account {
+        color: $secondary;
+        h4 {
+            font-size: $text-m;
+        }
+        label {
+            font-size: $text-s;
+        }
+        input {
+            padding: 12.5px 0;
+        }
+    }
+    &-verif {
+        color: $secondary;
+        &-icon {
+            margin-bottom: 18px;
+        }
+        h4 {
+            font-size: $text-m;
+            border-top: 1px solid $gray-200;
+            padding-bottom: 18px;
+        }
+        h5 {
+            font-size: $text-s;
+        }
+        span {
+            padding-right: 9px;
+        }
+        a {
+            color: $primary;
+            text-align: center;
+            display: block;
+            background-color: $white;
+            border: 1px solid $gray-200;
+            border-radius: 2px;
+        }
+        button {
+            background-color: $white;
+            border: 1px solid $gray-200;
+            border-radius: 2px;
+        }
+    }
+    &-access {
+        color: $secondary;
+        h4 {
+            font-size: $text-m;
+            border-top: 1px solid $gray-200;
+        }
+        select {
+            color: $gray-300;
+        }
+    }
+    &-custom {
+        color: $secondary;
+        h4 {
+            font-size: $text-m;
+        }
+    }
+    &-deactivate {
+        h4 {
+            font-size: $text-m;
+            border-top: 1px solid $gray-200;
+        }
+        a {
+            color: $danger;
+            margin-top: 18px;
+            &:hover {
+                background-color: $danger;
+                color: $white;
+                transition: .8s;
+            }
+        }
+    }
+    &-view {
+        padding: $text-xl;
+        column-gap: $text-l;
+        img {
+            min-width: 141px;
+            height: 141px;
+        }
+    }
+    &-admin {
+        p {
+            font-size: $text-l;
+        }
+        h4 {
+            color: $gray-300;
+            font-size: $text-s;
+        }
+        a {
+            color: $secondary;
+            background-color: $gary;
+        }
+        h5 {
+            padding: 4px 8px;
+            font-size: $text-s;
+            background-color: $gary;
+        }
+    }
+    &-footer {
+        border-top: 0;
+        padding-top: 18px;
+        padding-bottom: $text-xl;
+    }
+}
+.disabled {
+    color: $gray-200;
+}

@@ -1,0 +1,111 @@
+.assignment {
+    margin-left: 296px;
+    &-top {
+        width: 920px;
+        margin-bottom: 41px;
+        h2 {
+            font-size: $text-l;
+            padding-right: 50px;
+        }
+        h3 {
+            padding-right: 9px;
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+    &-group {
+        column-gap: $font-size-base;
+    }
+    &-content {
+        width: 584px;
+        border: 1px solid $third;
+    }
+    &-select {
+        margin-top: 41px;
+        margin-bottom: $text-xxs;
+        h4 {
+            font-size: $text-xs;
+            color: $gray-300;
+        }
+    }
+    &-header {
+        color: $secondary;
+        background-color: $gray;
+        padding: $text-xs $font-size-base;
+        p {
+            font-size: $text-xs;
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+    &-body {
+        img {
+            min-width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+    &-text {
+        width: 488px;
+        h3 {
+            color: $secondary;
+            font-weight: bold;
+        }
+        h4 {
+            font-size: $text-xs;
+            color: $gray-300;
+        }
+        p {
+            font-size: $text-s;
+        }
+    }
+}
+.side-bar-box {
+    width: 320px;
+    color: $secondary;
+    padding: $text-xs;
+    h4 {
+        font-size: $text-xs;
+    }
+    &:hover {
+        background-color: $gray;
+    }
+}
+.download {
+    padding: 8px 0;
+    width: 176px;
+    font-weight: bold;
+    text-align: center;
+    color: $secondary;
+    background-color: $gray;
+}
+.text-color {
+    color: $primary;
+    background-color: $gray;
+}
+.text-gary {
+    color: $gray-300;
+}
+.read-btn {
+    border: 1px solid $primary;
+    color: $primary;
+    padding: 8px $text-xl;
+    &:hover {
+        background-color: $primary;
+        color: $white;
+    }
+}
+.replay-btn {
+    background-color: $primary;
+    color: $white;
+    padding: 8px $text-xl;
+    &:hover {
+        color: $white;
+        opacity: 0.8;
+    }
+}

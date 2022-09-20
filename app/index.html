@@ -5,134 +5,136 @@ engine: ejs
 current: index
 ---
 <!--區塊一-->
-<section class="assignment">
-  <div class="container">
-    <div class="assignment-box d-flex flex-column">
-      <div class="assignment-top">
-        <div class="d-flex justify-content-between">
-          <div class="d-flex align-items-center">
-            <h2 class="fw-bold">Assignment</h2>
-            <h3 class="fw-bold">All Courses</h3>
-            <span><img src="./assets/images/arrow_bottom.svg" alt=""></span>
-          </div>
-          <div class="d-flex align-items-center">
-            <span class="material-icons pe-4">search</span>
-            <span class="material-icons">notifications_active</span>
-          </div>
-        </div>
-      </div>
-      <div class="assignment-group d-flex">
-        <div class="assignment-sidebar px-0">
-          <div class="side-bar-box d-flex flex-column border">
-            <div class="d-flex justify-content-between">
-              <h4 class="pb-1">Chapter Assignment 2</h4>
-              <h4>4 hrs ago</h4>
+<main>
+  <section class="assignment">
+    <div class="container">
+      <div class="assignment-box d-flex flex-column">
+        <div class="assignment-top">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+              <h2 class="fw-bold">Assignment</h2>
+              <h3 class="fw-bold">All Courses</h3>
+              <span><img src="./assets/images/arrow_bottom.svg" alt=""></span>
             </div>
-            <div class="d-flex justify-content-between align-items-center">
-              <h3>Please check this file…</h3>
-              <h4 class="text-gary">Emily Wang</h4>
-            </div>
-          </div>
-          <div class="side-bar-box d-flex flex-column border">
-            <div class="d-flex justify-content-between">
-              <h4 class="pb-1">Chapter Assignment 1</h4>
-              <h4>12 hrs ago</h4>
-            </div>
-            <div class="d-flex justify-content-between align-items-center">
-              <h3>My Homework</h3>
-              <h4 class="text-gary">David Xu</h4>
-            </div>
-          </div>
-          <div class="side-bar-box d-flex flex-column border">
-            <div class="d-flex justify-content-between">
-              <h4 class="pb-1">Final Assignment</h4>
-              <h4>18 hrs ago</h4>
-            </div>
-            <div class="d-flex justify-content-between align-items-center">
-              <h3>Have a problem with this…</h3>
-              <h4 class="text-gary">Tony Wei</h4>
-            </div>
-          </div>
-          <div class="side-bar-box d-flex flex-column border">
-            <div class="d-flex justify-content-between">
-              <h4 class="pb-1">Final Assignment</h4>
-              <h4>19 hrs ago</h4>
-            </div>
-            <div class="d-flex justify-content-between align-items-center">
-              <h3>Did I do it right?</h3>
-              <h4 class="text-gary"s>Christina Lin</h4>
+            <div class="d-flex align-items-center">
+              <span class="material-icons pe-4">search</span>
+              <span class="material-icons">notifications_active</span>
             </div>
           </div>
         </div>
-        <div class="d-flex flex-column">
-          <div class="assignment-content px-0 border">
-            <div class="assignment-header">
-              <p class="pb-1">Chapter Assignment 2 / HTML&CSS</p>
+        <div class="assignment-group d-flex">
+          <div class="assignment-sidebar px-0">
+            <div class="side-bar-box d-flex flex-column border">
               <div class="d-flex justify-content-between">
-                <h3>Please check this file for me, thanks!</h3>
-                <span class="material-icons text-dark">more_vert</span>
+                <h4 class="pb-1">Chapter Assignment 2</h4>
+                <h4>4 hrs ago</h4>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3>Please check this file…</h3>
+                <h4 class="text-gary">Emily Wang</h4>
               </div>
             </div>
-            <div class="assignment-body px-3 py-3">
-              <div class="d-flex">
-                <img src="./assets/images/emilywang.jpeg" alt="photo" class="me-2">
-                <div class="assignment-text d-flex flex-column">
-                  <h3>Emily Wang</h3>
-                  <h4 class="pb-3">10:38 AM (4 hours ago)</h4>
-                  <p class="pb-3">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code class="text-color">div</code> is bigger than the height of the <code class="text-color">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.
-                    <br>What is the gap or extra space below image?
-                  </p>
-                  <a href="#" class="download border pe-3" download="HW-2-David.zip">
-                    <span class="material-icons align-middle me-2">attach_file</span>
-                    HW-2-David.zip
-                  </a>
-                </div>
+            <div class="side-bar-box d-flex flex-column border">
+              <div class="d-flex justify-content-between">
+                <h4 class="pb-1">Chapter Assignment 1</h4>
+                <h4>12 hrs ago</h4>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3>My Homework</h3>
+                <h4 class="text-gary">David Xu</h4>
               </div>
             </div>
-            <div class="assignment-body px-3 pb-3">
-              <div class="d-flex">
-                <img src="./assets/images/andychen.jpeg" alt="photo" class="me-2 mt-3">
-                <div class="assignment-text d-flex flex-column border-top pt-3">
-                  <div class="d-flex justify-content-between">
-                    <div class="d-flex flex-column pb-3">
-                      <h3>Andy Chen (You)</h3>
-                      <h4>13:24 AM (1 hours ago)</h4>
-                    </div>
-                    <div class="icon">
-                      <span class="material-symbols-outlined pe-4">
-                        star
-                      </span>
-                      <span class="material-icons">edit</span>
-                    </div>
-                  </div>
-                  <p>
-                    Hi David, by default, an image is rendered inline, like a letter so it sits on the<br>
-                    same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br>
-                  </p>
-                    <br>
-                    You can:<br>
-                    <br>
-                    <ul>
-                      <li class="ps-4"> • adjust the <code class="text-color">vertical-align</code> of the image to position it elsewhere</li>
-                      <li>(e.g. the <code class="text-color">middle</code> ) or</li>
-                      <li class="ps-4">• change the <code class="text-color">display</code> so it isn't inline.</li>
-                    </ul>
-                </div>
+            <div class="side-bar-box d-flex flex-column border">
+              <div class="d-flex justify-content-between">
+                <h4 class="pb-1">Final Assignment</h4>
+                <h4>18 hrs ago</h4>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3>Have a problem with this…</h3>
+                <h4 class="text-gary">Tony Wei</h4>
+              </div>
+            </div>
+            <div class="side-bar-box d-flex flex-column border">
+              <div class="d-flex justify-content-between">
+                <h4 class="pb-1">Final Assignment</h4>
+                <h4>19 hrs ago</h4>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3>Did I do it right?</h3>
+                <h4 class="text-gary"s>Christina Lin</h4>
               </div>
             </div>
           </div>
-          <div class="assignment-footer d-flex justify-content-between align-items-center mt-3">
-            <div class="footer-icon d-flex">
-              <a href="#"><span class="material-icons text-dark pe-4">chevron_left</span></a>
-              <a href="#"><span class="material-icons text-dark">chevron_right</span></a>
+          <div class="d-flex flex-column">
+            <div class="assignment-content px-0 border">
+              <div class="assignment-header">
+                <p class="pb-1">Chapter Assignment 2 / HTML&CSS</p>
+                <div class="d-flex justify-content-between">
+                  <h3>Please check this file for me, thanks!</h3>
+                  <span class="material-icons text-dark">more_vert</span>
+                </div>
+              </div>
+              <div class="assignment-body px-3 py-3">
+                <div class="d-flex">
+                  <img src="./assets/images/emilywang.jpeg" alt="photo" class="me-2">
+                  <div class="assignment-text">
+                    <h3>Emily Wang</h3>
+                    <h4 class="pb-3">10:38 AM (4 hours ago)</h4>
+                    <p class="pb-3">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code class="text-color">div</code> is bigger than the height of the <code class="text-color">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.
+                      <br>What is the gap or extra space below image?
+                    </p>
+                    <a href="#" class="download border pe-3" download="HW-2-David.zip">
+                      <span class="material-icons align-middle me-2">attach_file</span>
+                      HW-2-David.zip
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignment-body px-3 pb-3">
+                <div class="d-flex">
+                  <img src="./assets/images/andychen.jpeg" alt="photo" class="me-2 mt-3">
+                  <div class="assignment-text border-top pt-3">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-column pb-3">
+                        <h3>Andy Chen (You)</h3>
+                        <h4>13:24 AM (1 hours ago)</h4>
+                      </div>
+                      <div class="icon">
+                        <span class="material-symbols-outlined pe-4">
+                          star
+                        </span>
+                        <span class="material-icons">edit</span>
+                      </div>
+                    </div>
+                    <p>
+                      Hi David, by default, an image is rendered inline, like a letter so it sits on the<br>
+                      same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br>
+                    </p>
+                      <br>
+                      You can:<br>
+                      <br>
+                      <ul>
+                        <li class="ps-4"> • adjust the <code class="text-color">vertical-align</code> of the image to position it elsewhere</li>
+                        <li>(e.g. the <code class="text-color">middle</code> ) or</li>
+                        <li class="ps-4">• change the <code class="text-color">display</code> so it isn't inline.</li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="footer-button d-flex">
-              <a href="#" class="read-btn me-3">Mark as read</a>
-              <a href=#" class="replay-btn">Reply</a>
+            <div class="assignment-footer d-flex justify-content-between align-items-center mt-3">
+              <div class="footer-icon d-flex">
+                <a href="#"><span class="material-icons text-dark pe-4">chevron_left</span></a>
+                <a href="#"><span class="material-icons text-dark">chevron_right</span></a>
+              </div>
+              <div class="footer-button d-flex">
+                <a href="#" class="read-btn me-3">Mark as read</a>
+                <a href=#" class="replay-btn">Reply</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>

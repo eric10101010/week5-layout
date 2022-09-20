@@ -1,5 +1,4 @@
 .assignment {
-    margin-left: 296px;
     &-top {
         width: 920px;
         margin-bottom: 41px;
@@ -18,7 +17,6 @@
         column-gap: $font-size-base;
     }
     &-content {
-        width: 584px;
         border: 1px solid $third;
     }
     &-select {
@@ -51,7 +49,6 @@
         }
     }
     &-text {
-        width: 488px;
         h3 {
             color: $secondary;
             font-weight: bold;

@@ -1,7 +1,6 @@
 .admin {
-    margin-left: 296px;
+    padding: 32px;
     &-title {
-        width: 936px;
         h2 {
             font-size: $text-l;
         }
@@ -20,7 +19,6 @@
         }
     }
     &-table {
-        width: 936px;
         span {
             cursor: pointer;
             &:hover {
@@ -29,27 +27,30 @@
         }
     }
     &-page {
-        width: 936px;
         margin-top: 63px;
         display: flex;
         justify-content: flex-end;
-        &-item {
-            outline: 1px solid $primary;
-            border-radius: 2px; 
-            p {
-                padding: 0 11.5px;
+        &-icon {
+            span {
+                color: #198754;
                 padding-top: 6px;
                 padding-bottom: 7px;
                 &:hover {
-                    background-color: $primary;
-                    color: $white;
+                    background-color: #198754;
+                    color: #FFFFFF;
                 }
             }
-            span {
-                padding: 4px;
-                cursor: pointer;
-                &:hover {
-                    opacity: 0.6;
+        }
+        &-item {
+            a {
+                border: 1px solid #198754;
+                color: #212529;
+                padding: 0 11.5px;
+                padding-top: 6px;
+                padding-bottom: 7px;
+                &:hover  {
+                    background-color:#198754;
+                    color: #FFFFFF;
                 }
             }
         }
